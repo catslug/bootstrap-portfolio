@@ -1,0 +1,199 @@
+html, body {
+	height: 100%;
+}
+
+body {
+	font-family: 'Open Sans', sans-serif;
+	font-size: 15px;
+	letter-spacing: 1px;
+	background-image: url(../images/brickwall.png);
+	background-attachment: absolute;
+    background-position: center; 
+	background-repeat: repeat;
+}
+
+nav {
+	height: 70px;
+	box-shadow: 3px 3px 3px #b0b0b0;
+}
+
+.navbar-default {
+	background-color: #ecf74a;
+}
+
+.navbar {
+	margin-bottom: 45px;
+}
+
+.navbar-brand {
+	padding: 0px 20px 20px 55px;
+	font-size: 22px;
+	font-weight: 800;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+	float: none;
+}
+
+#headername {
+	padding: 18px 30px 26px 85px;
+	background-color: #555;
+	color: #f8f9f5;
+	white-space: nowrap;
+}
+
+.navlinks {
+	position: absolute;
+	top: -20px;
+}
+
+#logo {
+	padding: 0px;
+	top: 0;
+	margin-left: -6px;
+	height: 68px;
+	position: absolute;
+	z-index: 2;
+}
+
+#bs-example-navbar-collapse-1 {
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 3px;
+	padding: 10px;
+}
+
+.container {
+	min-height: 100%;
+	margin-bottom: -70px;
+	margin: 20px auto 0 auto;
+}
+
+.container:after {
+	content: "";
+	content: none;
+	display: block; 
+	clear: both; 
+}
+
+.page-header {
+	border-bottom: 8px dotted #f7e403;
+}
+
+.panel-heading {
+	background-color: #f9f9f9;
+}
+
+.connect-head {
+	font-size: 16px;
+	padding: 20px;
+}
+
+.connect-body {
+	padding: 20px;
+	text-align: center;
+}
+
+.icon {
+	padding: 10px;
+}
+
+#main-bio, #portfolio,
+#contact-form {
+	font-family: 'Open Sans', sans-serif;
+	letter-spacing: 1px;
+	font-size: 16px;
+	z-index: 1;
+	margin-right: 10px;
+}
+
+.redtext {
+	color: #cb0121;
+	font-weight: 800;
+}
+.portimg {
+	z-index: 1;
+	width: 100%;
+	height: 100%;
+	margin-bottom: 10px;
+}
+
+.porttitle {
+	background-color: #e4ff00;
+	color: #444;
+	font-weight: 800;
+	font-size: 16px;
+	z-index: 2;
+	margin: 10px 10px 10px 30px;
+	padding: 18px;
+	right: 5px;
+	width: calc(100% - 30px);
+	bottom: 20px;
+	text-align: center;
+	position: absolute;
+}
+
+.talk-body {
+	padding: 30px;
+}
+
+textarea#message {
+	max-height: 250px;
+	overflow: auto;
+	resize: vertical;
+	height: 150px;
+}
+
+.button {
+	background-color: #e4ff00;
+	border: none;
+	color: #444;
+	padding: 10px 15px 10px 15px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	border-radius: 4px;
+	transition: all .75s;
+}
+
+.button:hover {
+	background-color: #cb0121;
+}
+
+.button:active {
+	background-color: #ff4852;
+}
+
+.button:focus {
+	background-color: #cb0121;
+}
+
+.footer {
+	height: 70px;
+	background-color: #373738;
+	color: #b0b0b0;
+	text-align: center;
+	vertical-align: middle;
+	margin-top: 40px;
+}
+
+.footer:before {
+	content: "";
+	content: none;
+	display: block; 
+	clear: both; 
+}
+
+#copyright {
+	font-weight: 400;
+	font-family: 'Raleway', sans-serif;
+	letter-spacing: 2px;
+	padding: 25px 20px 15px 20px;
+}
+
+@media screen and (max-width: 991px) {
+	.connect-body {
+		padding: 5px;
+	}
+}
+
