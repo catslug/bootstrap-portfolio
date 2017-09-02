@@ -19,6 +19,7 @@ nav {
 
 .navbar-default {
 	background-color: #ecf74a;
+	border: 1px solid #ecf74a;
 }
 
 .navbar {
@@ -27,7 +28,7 @@ nav {
 
 .navbar-brand {
 	padding: 0px 20px 20px 55px;
-	font-size: 22px;
+	font-size: 21px;
 	font-weight: 800;
 	font-family: 'Raleway', sans-serif;
 	letter-spacing: 3px;
@@ -35,10 +36,11 @@ nav {
 }
 
 #headername {
-	padding: 18px 30px 26px 85px;
+	padding: 20px 30px 27px 85px;
 	background-color: #555;
 	color: #f8f9f5;
 	white-space: nowrap;
+	z-index: 1;
 }
 
 .navlinks {
@@ -223,3 +225,12 @@ textarea#message {
 	}
 }
 
+/*Needed because the #headername and background breaks at 374px (affecting iPhone6) and descends below header line*/
+@media screen and (max-width: 374px) {
+	#headername { 
+		background-color: #ecf74a;
+		padding: 20px 30px 27px 60px;
+		position: absolute;
+		top: 3px;
+	}
+}
