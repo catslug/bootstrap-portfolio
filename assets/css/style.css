@@ -200,11 +200,11 @@ textarea#message {
 
 .navbar-nav>li>a:hover {
 	z-index: 3;
-/*	background-color: #d1d411;*/
 }
 
 .nav>li>a {
 	text-align: right;
+	z-index: 3;
 }
 
 #transparentno1:hover {
