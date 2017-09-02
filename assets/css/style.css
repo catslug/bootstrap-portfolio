@@ -191,6 +191,32 @@ textarea#message {
 	padding: 25px 20px 15px 20px;
 }
 
+.navbar-nav>li>a {
+	z-index: 2;
+	background-color: #ecf74a;
+}
+
+.navbar-nav>li>a:hover {
+	z-index: 3;
+/*	background-color: #d1d411;*/
+}
+
+.nav>li>a {
+	text-align: right;
+}
+
+#transparentno1:hover {
+	background-color: #d1d411;
+}
+
+#transparentno2:hover {
+	background-color: #d1d411;
+}
+
+#transparentno3:hover {
+	background-color: #d1d411;
+}
+
 @media screen and (max-width: 991px) {
 	.connect-body {
 		padding: 5px;
