@@ -111,6 +111,12 @@ nav {
 	color: #cb0121;
 	font-weight: 800;
 }
+
+.redtext:hover {
+	text-decoration: none;
+	color: #ff506b;
+}
+
 .portimg {
 	z-index: 1;
 	width: 100%;
