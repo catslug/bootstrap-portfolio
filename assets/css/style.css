@@ -53,7 +53,7 @@ nav {
 	margin-left: -6px;
 	height: 90px;
 	position: absolute;
-	z-index: 2;
+	z-index: 5;
 }
 
 #bs-example-navbar-collapse-1 {
@@ -207,15 +207,18 @@ textarea#message {
 }
 
 #transparentno1:hover {
-	background-color: #d1d411;
+	background-color: #ecf74a;
+	border-bottom: 3px solid #444;
 }
 
 #transparentno2:hover {
-	background-color: #d1d411;
+	background-color: #ecf74a;
+	border-bottom: 3px solid #444;
 }
 
 #transparentno3:hover {
-	background-color: #d1d411;
+	background-color: #ecf74a;
+	border-bottom: 3px solid #444;
 }
 
 @media screen and (max-width: 991px) {
