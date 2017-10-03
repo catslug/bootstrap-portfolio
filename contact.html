@@ -48,7 +48,7 @@
 				</div>
 
 				<div class="row">
-					<div class="col-sm-11 talk-body" class="form-group panel-body"> <!-- action="#" method="post" -->
+					<form class="col-sm-11 talk-body form-group panel-body" action="https://formspree.io/lindsay.is@gmail.com" method="POST"> 
 					
 						<div>
 							<label for="name"><strong>Name:</strong></label>
@@ -62,7 +62,7 @@
 
 						<div>
 							<label for="message"><strong>Message:</strong></label>
-							<textarea class="form-control message-box" id="message"></textarea><br>
+							<textarea class="form-control message-box" name="comment" id="message"></textarea><br>
 						</div>
 
 								<!-- Cannot seem to get this to set a height for the textarea. Overriden by BS "auto" height setting. -->
@@ -71,7 +71,7 @@
 							<strong><button class="button btn btn-med" type="submit">Send</button></strong>
 						</div>
 
-					</div>
+					</form>
 
 				</div>
 			</div>

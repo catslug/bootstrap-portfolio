@@ -96,6 +96,11 @@ nav {
 
 .icon {
 	padding: 10px;
+	text-decoration: none;
+}
+
+.icon:hover {
+	text-decoration: none;
 }
 
 #main-bio, #portfolio,
