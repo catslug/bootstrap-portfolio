@@ -122,6 +122,10 @@ nav {
 	color: #ff506b;
 }
 
+.builtwith {
+	font-size: 11px;
+}
+
 .portimg {
 	z-index: 1;
 	width: 100%;
